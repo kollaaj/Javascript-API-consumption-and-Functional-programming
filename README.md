@@ -18,4 +18,6 @@ a proxy due to CORS restrictions. The application contains examples of:
 - Higher Order Functions
 - Array methods .find(), .filter(), .forEach() and .map()
 
+Not mobile friendly!
+
 Surge link: loud-rainbow.surge.sh
