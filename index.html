@@ -14,43 +14,48 @@
     <div class="current-container">
       <div class="current-container-upper">
         <h1>Reykjavík</h1>
-        <p class="temp">13°c</p>
-        <img src="/images/Clearsky.svg" alt="">
-        <p>Clear sky</p>
+        <div id="observation-loader" class="loader"></div>
+        <span id="temperature" class="temperature"></span>
+        <img id="weather-icon" src="" alt="">
+        <p id="main-weather-description">Loading...</p>
       </div>
       <div class="current-container-downer">
-        <p class="grid-row-one">Monday</p>
-        <p>Time</p>
-        <p class="grid-row-one">wind m/s</p>
-        <p>humidity 0%</p>
-        <p class="grid-row-one">pressure hPa</p>
-        <p>cloudness 0%</p>
+        <p class="grid-row-one" id="weekday"></p>
+        <p id="clock"></p>
+        <p id="wind" class="grid-row-one"></p>
+        <p id="visibility"></p>
+        <p id="wind-direction" class="grid-row-one"></p>
+        <p id="precipitation"></p>
       </div>
     </div>
-    <div class="forcast-container">
-      <div class="forcast">
-        <H3>Tuesday</H3>
-        <img src="/images/Clearsky.svg" alt="">
-        <p class="temp">13°c</p>
-        <p>Clear sky</p>
-        </div>
-      <div class="forcast">
-        <H3>Wednesday</H3>
-        <img src="/images/Clearsky.svg" alt="">
-        <p class="temp">13°c</p>
-        <p>Clear sky</p>
+    <div class="forecast-container">
+      <div class="forecast">
+        <h3 class="weekday"></h3>
+        <img class="weather-icon" src="" alt="">
+        <div class="loader"></div>
+        <p class="temperature"></p>
+        <p class="weather-description"></p>
       </div>
-      <div class="forcast">
-        <H3>Thursday</H3>
-        <img src="/images/Clearsky.svg" alt="">
-        <p class="temp">13°c</p>
-        <p>Clear sky</p>
+      <div class="forecast">
+        <h3 class="weekday"></h3>
+        <img class="weather-icon" src="" alt="">
+        <div class="loader"></div>
+        <p class="temperature"></p>
+        <p class="weather-description"></p>
       </div>
-      <div class="forcast">
-        <H3>friday</H3>
-        <img src="/images/Clearsky.svg" alt="">
-        <p class="temp">13°c</p>
-        <p>Clear sky</p>
+      <div class="forecast">
+        <h3 class="weekday"></h3>
+        <img class="weather-icon" src="" alt="">
+        <div class="loader"></div>
+        <p class="temperature"></p>
+        <p class="weather-description"></p>
+      </div>
+      <div class="forecast">
+        <h3 class="weekday"></h3>
+        <img class="weather-icon" src="" alt="">
+        <div class="loader"></div>
+        <p class="temperature"></p>
+        <p class="weather-description"></p>
       </div>
       
     </div>
